@@ -1,24 +1,24 @@
 
 public class Laptop {
 
-	double totalCapacity;
-	double usedCapacity;
+	private double totalCapacity;
+	private double usedCapacity;
 
 	
 	public double getFreeCapacity() {
-		
+		return 5.0;
 	}
 	
 	public void format() {
-		
+		System.out.println("product format");
 	}
 	
 	public boolean isConnected() {
-		
+		return true;
 	}
 	
 	public double maxSpeed() {
-		
+		return 10.0;
 		
 	}
 	
@@ -36,6 +36,10 @@ public class Laptop {
 
 	public void setUsedCapacity(double usedCapacity) {
 		this.usedCapacity = usedCapacity;
+	}
+	@Override
+	public String getName(){
+		return "Laptop";
 	}
 	
 
