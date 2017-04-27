@@ -1,5 +1,5 @@
 
-public class SmartTV {
+public class SmartTV extends Product {
 
 
 	private int channel;
@@ -11,8 +11,9 @@ public class SmartTV {
 	public void setChannel(int channel) {
 		this.channel = channel;
 	}
+	
 	@Override
-	public String getName(){
+	public String getName() {
 		return "SmartTV";
 	}
 	
