@@ -3,8 +3,7 @@ public class Laptop {
 
 	double totalCapacity;
 	double usedCapacity;
-	
-	dmdkdkdkdkdkdk;
+
 	
 	public double getFreeCapacity() {
 		
