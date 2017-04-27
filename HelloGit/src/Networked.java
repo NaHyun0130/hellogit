@@ -1,6 +1,9 @@
 
 public interface Networked {
 	
-	test
+	public boolean isConnected();
+	
+	public double maxSpeed();
 
+	
 }
