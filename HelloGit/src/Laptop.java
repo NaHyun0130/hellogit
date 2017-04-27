@@ -42,13 +42,7 @@ public class Laptop extends Product implements DataStorage {
       return "Laptop";
    }
 
-   @Override
-   public double getFreeCapacity() {
-   
-      return 1.0;
-   }
-   
-
+  
    
    
 
