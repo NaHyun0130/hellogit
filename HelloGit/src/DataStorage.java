@@ -3,7 +3,7 @@ public interface DataStorage {
 	
 	
 	
-	public double getCapacity();
+	public double getFreeCapacity();
 	public void format();
 
 }
