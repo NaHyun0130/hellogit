@@ -1,4 +1,5 @@
-
 public interface Cooker {
-df;
+
+	public String prepareFood();
+
 }
